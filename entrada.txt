@@ -1,0 +1,2 @@
+load 0xf0020300
+store 0xe001234
