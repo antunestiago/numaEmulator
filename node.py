@@ -15,4 +15,5 @@ class Node:
     def insereMemoria(self,indiceM,conteudoM):
         self.memory.insert(indice,conteudo)
 
-    
+    def insereDiretorio(self,indiceD,conteudoD):
+        self.memory.insert(indice,conteudo)
