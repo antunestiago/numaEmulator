@@ -8,6 +8,7 @@ class EndFisico():
         self.no = 0
 
     def converteToEndFis(self, endBin):
-        self.offset = int(endBin[20:27],2)
-        self.endBloco = int(endBin[10:20],2)
-        self.no = int(endBin[2:9],2)
+        self.offset = int(endBin[29:34],2)
+        self.endBloco = int(endBin[11:28],2)
+        self.no = int(endBin[2:10],2)
+        
