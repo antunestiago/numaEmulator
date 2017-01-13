@@ -1,2 +1,3 @@
-load 0xf0020300
-store 0xe001234
+load 0x24000108
+load 0x24000108
+store 0x24003188

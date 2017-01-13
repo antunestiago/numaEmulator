@@ -16,12 +16,10 @@ while(i < len(words)):
             hexdecimal = words[i+1]
             cpu = random.randint(0,255)
             print cpu
-            Nodes[cpu].load(hexdecimal)
+            Nodes[cpu].load(hexdecimal,Nodes)
         elif words[i] =="store":
             hexdecimal = words[i+1]
             cpu = random.randint(0,255)
-            print cpu
-            Nodes[cpu].store(hexdecimal)
+            print "No:",cpu,"-> store"
+            Nodes[cpu].store(hexdecimal,Nodes)
         i = i+2
-#print words[2]#teste
-print Nodes[1].memory, Nodes[1].cache, Nodes[1].diretorio,Nodes[5].cpu
